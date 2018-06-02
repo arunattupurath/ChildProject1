@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ChildProject1Application {
 
 	public static void main(String[] args) {
+		System.out.println("Hello1");
 		SpringApplication.run(ChildProject1Application.class, args);
 	}
 }
